@@ -1,0 +1,173 @@
+@font-face {
+    font-family: WorkSans ;
+    src: url("/Fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Logofont;
+    src: url(/fonts/PoorStory-Regular.ttf);
+}
+
+@font-face {
+    font-family: Robotoslab ;
+    src: url("/Fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family:FAQ-Jacques; 
+    background: url("/Properties-Imgs/pexels-binyamin-mellish-106399\ \(1\).jpg");
+
+
+}
+
+.loginFrom-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 300px;
+    min-width: 400px;
+    box-shadow: 2px 2px 8px gray,-2px -2px 8px gray;
+    backdrop-filter: blur(10px);
+}
+
+.InputBox{
+   position: relative;
+   min-width: 250px;
+   margin-top: 20px;
+}
+
+
+
+ /* new pass */
+
+.disable{
+    display: none;
+}
+
+
+
+.InputBox input{
+    padding: 10px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid rgb(255,255,255,0.25);
+    border-radius: 5px;
+    outline: none;
+    color: #000000;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+
+.InputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.InputBox input:focus ~ span
+{
+   
+    font-weight: 400;
+    color: #00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.8em;
+    padding: 0 10px;
+    background: rgba(59, 51, 51);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    
+}
+
+
+
+/* login btn */
+
+.Login-btn button{
+    padding: 5px 20px;
+    cursor: pointer;
+    background: transparent;
+    color: #000000;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: box-shadow 0.5s;
+}
+.Login-btn button:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 25px #000000,0 0 50px #000000,0 0 75px #000000,0 0 90px #000000;
+    border: 1.5px solid black;
+    
+}
+.Login-btn button:active{
+    background-color:#00dfc4 ;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 25px #00dfc4,0 0 50px #00dfc4,0 0 75px #00dfc4,0 0 90px #00dfc4;
+   
+    font-size: 0.8rem;
+   
+}
+
+
+
+
+/* Create new account */
+
+
+.NewAcc-container{
+
+    margin-bottom: 20px;
+}
+
+
+.NewAcc-container a{
+    font-size: 15px;
+    color: blue;
+    font-family: Robotoslab;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

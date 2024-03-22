@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="LoginFrom.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="nav-logo">
+            <img src="/Properties-Imgs/web-balck-logo.png" alt="">
+
+        </div>
+        <ul class="Nav-Iteams">
+            <a href="#">
+                <li>Search Properties</li>
+            </a>
+            <a href="#">
+                <li>Rent</li>
+            </a>
+            <a href="#">
+                <li>Buy</li>
+            </a>
+            <a href="#">
+                <li>Sell</li>
+            </a>
+            <!-- <li>Home Lone Calculater</li> -->
+
+        </ul>
+        <a href="login/LoginFrom.html "><button class="btn">Sign Up</button></a>
+    </div>
+
+    <div class="loginFrom-wrapper">
+
+        <div class="Container">
+            <div class="InputBox">
+                <input type="text" class="input-name" id="inputName">
+
+                <span id="SpanName" class="validation-span">UserName</span>
+                <span id="SpanNewName" class="validation-span disable">Enter Username</span>
+            </div>
+
+            <div class="InputBox">
+                <input type="password" class="input-pass" id="inputPass">
+
+                <span id="SpanPass" class="validation-span">Password</span>
+                <span id="SpanNewPass" class="validation-span disable">New Password</span>
+            </div>
+
+
+
+            <div class="InputBox disable" id="NewPassContainer">
+                <input type="password" class="input-pass" id="inputNewPass">
+
+                <span id="SpanNewPass2 validation-span" c>New Password</span>
+            </div>
+
+
+
+            <div class="Login-btn">
+                <button onclick="showAlert()" id="LoginBtn">Login</button>
+            </div>
+
+
+            <div class="NewAcc-container">
+                <a class="" id="NewAcc" onclick="CreateNewAcc()"><span>Create new account?</span></a>
+
+                <a href="" class="disable " id="HaveAcc"><span>Already have account?</span></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="LoginFrom.js"></script>
+</body>
+
+</html>

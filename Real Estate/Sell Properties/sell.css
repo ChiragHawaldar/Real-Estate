@@ -1,0 +1,156 @@
+@font-face {
+    font-family: WorkSans;
+    src: url("/Fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Rajdhani;
+    src: url("/Fonts/Rajdhani-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: Poor-logo;
+    src: url("/Fonts/PoorStory-Regular.ttf");
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5EDE8;
+    font-family: WorkSans;
+    min-height: 100vh;
+   
+}
+.wrapper{
+    
+    padding: 30px;
+    box-shadow: 2px 2px 18px #f05117;
+}
+
+.SellPro-wrapper {
+
+    width: 400px;
+    overflow: hidden;
+  
+    
+    
+}
+.heading-container h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.heading-container p{
+    margin-top: 15px;
+    opacity: 0.6;
+}
+.property-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.basic-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Property-address input[type="text"] {
+    height: 80px;
+}
+
+
+
+.room-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.propertyCost-deatils {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.basic-details input[type="text"] {
+    width: 400px;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+   
+}
+
+.room-details input[type="text"] {
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.propertyCost-deatils input[type="text"] {
+    width: 400px;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+input[type="text"]:focus{
+    border: 2px solid rgb(240, 81, 23,0.7);
+    outline: none;
+}
+
+::placeholder {
+ 
+  
+    font-size: 15px; 
+    font-weight: normal; 
+    color: #999; 
+}
+
+
+.btn{
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #f05117;
+    border: 2px solid #f05117;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.btn:hover{
+    color: #ff9100;
+    border: 2px solid #f36937;
+    
+}
+
+.btn:active{
+    padding: 8px 12px;
+    color: #F28F0D;
+}
